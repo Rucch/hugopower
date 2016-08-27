@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gos on Power Guide</title>
+    <link>http://localhost:1313/hugopower/go/</link>
+    <description>Recent content in Gos on Power Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/hugopower/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>go</title>
+      <link>http://localhost:1313/hugopower/go/go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IsSet, echoParam</title>
+      <link>http://localhost:1313/hugopower/go/IsSet,-echoParam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/IsSet,-echoParam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eq, first</title>
+      <link>http://localhost:1313/hugopower/go/eq,-first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/eq,-first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>where</title>
+      <link>http://localhost:1313/hugopower/go/where/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/where/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>in</title>
+      <link>http://localhost:1313/hugopower/go/in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/in/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/hugopower/go/:more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/:more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intersect</title>
+      <link>http://localhost:1313/hugopower/go/intersect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/intersect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>http://localhost:1313/hugopower/go/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/hugopower/go/:-more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/:-more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strings</title>
+      <link>http://localhost:1313/hugopower/go/strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/strings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/hugopower/go/:--more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/:--more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/hugopower/go/:---more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugopower/go/:---more/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

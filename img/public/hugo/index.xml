@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugos on Power Guide</title>
+    <link>http://localhost:1313/2015/hugo/</link>
+    <description>Recent content in Hugos on Power Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/2015/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hugo</title>
+      <link>http://localhost:1313/2015/hugo/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organization</title>
+      <link>http://localhost:1313/2015/hugo/organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sections</title>
+      <link>http://localhost:1313/2015/hugo/sections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/sections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>create</title>
+      <link>http://localhost:1313/2015/hugo/create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/create/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>destinations</title>
+      <link>http://localhost:1313/2015/hugo/destinations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/destinations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>req variables</title>
+      <link>http://localhost:1313/2015/hugo/req-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/req-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/hugo/:more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/:more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archetypes</title>
+      <link>http://localhost:1313/2015/hugo/archetypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/archetypes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:rules</title>
+      <link>http://localhost:1313/2015/hugo/:rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/:rules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>the templates</title>
+      <link>http://localhost:1313/2015/hugo/the-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/the-templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>single</title>
+      <link>http://localhost:1313/2015/hugo/single/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/single/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>single :example</title>
+      <link>http://localhost:1313/2015/hugo/single-:example/</link>
+      <pubDate>Fri, 04 Dec 2015 04:53:20 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/single-:example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/hugo/:-more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/:-more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/hugo/:--more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/:--more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/hugo/:---more/</link>
+      <pubDate>Fri, 04 Dec 2015 04:59:40 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugo/:---more/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
