@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugoGuide/homepage/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/organization/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugoGuide/list-pages/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/sections/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugoGuide/grouping/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/create/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugoGuide/taxonomy-terms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/destinations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugoGuide/opitional-templates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/req-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/archetypes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/the-templates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/single/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/single-:example/</loc>
+    <lastmod>2015-12-04T04:53:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:---more/</loc>
+    <lastmod>2015-12-04T04:59:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/homepage/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/list/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/tax-list/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/RSS/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/list-variables/</loc>
+    <lastmod>2015-12-04T05:04:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/ordering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/group/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/filtering-:first/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/where/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/first:where-together/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/suporting-temp/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/partials/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/content-views/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:-----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:-rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:example/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:.Render/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:-example/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/tax-terms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:-------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/tax-variables/</loc>
+    <lastmod>2015-12-04T05:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/terms.html/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:--------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/ordering-data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/others-:404/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:--rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/sitemap-xml/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/RSS-feed/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:---rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:configuring/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/hugo/:---------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/reference/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/page-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/page-params/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/node-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/site-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/reference/:---more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/go/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/IsSet,-echoParam/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/eq,-first/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/where/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/in/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/intersect/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/math/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/strings/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/go/:---more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/templates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/functions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/includes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/logic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/conditionals-%28if%29/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/if,-else,-and,-or/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/with,-if-else-if/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/pipes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/IE-conditional/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:---more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/A.k.a-the-dot/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/hugo-parameters/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/content-page-params/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/site-config-params/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:-----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:-------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/magic-const/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/template-:example/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugopower/templates/:--------more/</loc>
+  </url>
+  
+</urlset>

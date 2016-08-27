@@ -1,0 +1,33 @@
+<div data-role="page" id="guide" data-dialog="true">
+	<div data-role="header">
+	<h1>Guide</h1>
+	</div>
+
+	<div role="main" class=" ui-content">
+			<div data-role="collapsible" data-mini="true">
+				<h3>Hugo Templates</h3>
+
+	<div data-role="collapsibleset" data-inset="false">
+			
+			{{ range (index .Site.Taxonomies.groups.guide).Pages.ByWeight }}
+			<div data-role="collapsible" data-mini="true">
+				<h3>{{ .Title }}</h3>
+				<div class="ui-content">
+				<p>{{ .Content }}</p> </div>
+			</div>		
+			{{ end }}
+		</div>
+				
+			</div>		
+	<img src="/img/0.jpg" style="width: 100%; height: auto; padding: 2px;">
+		
+	<a href="#" data-rel="back" style="width: 100%; padding: 0.5px;" class="ui-btn ui-btn-inline ">back</a>
+	</div>
+
+	<div data-role="footer">
+	{{ partial "footer.html" . }}
+	</div>	
+</div>
+
+	
+

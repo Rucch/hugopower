@@ -1,0 +1,26 @@
+
+<div data-role="page" id="reference">
+	<div data-role="header">
+	{{ partial "navbar.html" . }}
+	</div>
+
+	<div role="main" class=" ui-content">
+		<div data-role="collapsibleset" data-inset="false">
+			
+			{{ range (index .Site.Taxonomies.groups.reference).Pages.ByWeight }}
+			<div data-role="collapsible" data-mini="true">
+				<h3>{{ .Title }}</h3>
+				<img src="/img/{{ .Params.image }}" style="width: 100%; height: auto; padding: 2px;">
+			</div>		
+			{{ end }}
+		</div>
+	<a href="#guide" style="width: 100%; padding: 0.5px;" class="ui-btn ui-btn-inline ">hugo Guide</a>
+	</div>
+
+	<div data-role="footer">
+	{{ partial "footer.html" . }}
+	</div>	
+</div>
+
+	
+

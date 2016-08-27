@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reference on Power Guide</title>
+    <link>http://localhost:1313/2015/groups/reference/</link>
+    <description>Recent content in Reference on Power Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/2015/groups/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/reference/:more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/:more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/reference/:-more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/:-more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/reference/:--more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/:--more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/reference/:---more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/:---more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node variables</title>
+      <link>http://localhost:1313/2015/reference/node-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/node-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>page params</title>
+      <link>http://localhost:1313/2015/reference/page-params/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/page-params/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>page variables</title>
+      <link>http://localhost:1313/2015/reference/page-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/page-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ref</title>
+      <link>http://localhost:1313/2015/reference/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/reference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>site variables</title>
+      <link>http://localhost:1313/2015/reference/site-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/reference/site-variables/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

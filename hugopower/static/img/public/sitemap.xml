@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://localhost:1313/2015/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/hugo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugoGuide/homepage/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/organization/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugoGuide/list-pages/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/sections/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugoGuide/grouping/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/create/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugoGuide/taxonomy-terms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/destinations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugoGuide/opitional-templates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/req-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/archetypes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/the-templates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/single/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/single-:example/</loc>
+    <lastmod>2015-12-04T04:53:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:---more/</loc>
+    <lastmod>2015-12-04T04:59:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/homepage/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/list/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/tax-list/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/RSS/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/list-variables/</loc>
+    <lastmod>2015-12-04T05:04:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/ordering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/group/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/filtering-:first/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/where/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/first:where-together/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/suporting-temp/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/partials/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/content-views/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:-----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:-rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:example/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:.Render/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:-example/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/tax-terms/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:-------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/tax-variables/</loc>
+    <lastmod>2015-12-04T05:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/terms.html/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:--------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/ordering-data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/others-:404/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:--rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/sitemap-xml/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/RSS-feed/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:---rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:configuring/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/hugo/:---------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/reference/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/page-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/page-params/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/node-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/site-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/reference/:---more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/go/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/IsSet,-echoParam/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/eq,-first/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/where/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/in/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/intersect/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/math/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/strings/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/go/:---more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/templates/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/variables/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/functions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/includes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/logic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/conditionals-%28if%29/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/if,-else,-and,-or/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/with,-if-else-if/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/pipes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:-more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:--more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/IE-conditional/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:---more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/A.k.a-the-dot/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/hugo-parameters/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/content-page-params/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/site-config-params/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:-----more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:-------more/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/magic-const/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/template-:example/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/templates/:--------more/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,13 @@
+baseurl = "https://rucch.github.io/hugopower"
+languageCode = "en-us"
+title = "Power Guide"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+canonifyurls = true
+
+
+[taxonomies]
+menu = "menu"
+group = "groups"

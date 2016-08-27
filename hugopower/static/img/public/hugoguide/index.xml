@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugoguides on Power Guide</title>
+    <link>http://localhost:1313/2015/hugoguide/</link>
+    <description>Recent content in Hugoguides on Power Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/2015/hugoguide/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>homepage</title>
+      <link>http://localhost:1313/2015/hugoGuide/homepage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugoGuide/homepage/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;index.html Template&lt;/p&gt;
+
+&lt;p&gt;This content template is used for spf13.com.&lt;/p&gt;
+
+&lt;p&gt;It makes use of partial templates and uses a similar approach as a List.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&lt;html class=&#34;no-js&#34; lang=&#34;en-US&#34; prefix=&#34;og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;utf-8&#34;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{ partial &amp;quot;meta.html&amp;quot; . }}
+
+&amp;lt;base href=&amp;quot;{{ .Site.BaseUrl }}&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;{{ .Site.Title }}&amp;lt;/title&amp;gt;
+&amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;{{ .Permalink }}&amp;quot;&amp;gt;
+&amp;lt;link href=&amp;quot;{{ .RSSlink }}&amp;quot; rel=&amp;quot;alternate&amp;quot; type=&amp;quot;application/rss+xml&amp;quot; title=&amp;quot;{{ .Site.Title }}&amp;quot; /&amp;gt;
+
+{{ partial &amp;quot;head_includes.html&amp;quot; . }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/head&gt;
+&lt;body lang=&#34;en&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;subheader.html&amp;rdquo; . }}&lt;/p&gt;
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+    {{ range first 10 .Data.Pages }}
+        {{ .Render &#34;summary&#34;}}
+    {{ end }}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; }}&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>list pages</title>
+      <link>http://localhost:1313/2015/hugoGuide/list-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugoGuide/list-pages/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;Exemple List Template Pages
+__
+Example section template (post.html)&lt;/p&gt;
+
+&lt;p&gt;This content template is used for spf13.com. It makes use of partial templates. All examples use a view called either “li” or “summary” which this example site defined.&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;header.html&amp;rdquo; . }}
+{{ partial &amp;ldquo;subheader.html&amp;rdquo; . }}&lt;/p&gt;
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+        &lt;ul id=&#34;list&#34;&gt;
+            {{ range .Data.Pages }}
+                {{ .Render &#34;li&#34;}}
+            {{ end }}
+        &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; }}
+__
+Example taxonomy template (tag.html)&lt;/p&gt;
+
+&lt;p&gt;This content template is used for spf13.com. It makes use of partial templates. All examples use a view called either “li” or “summary” which this example site defined.&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;header.html&amp;rdquo; . }}
+{{ partial &amp;ldquo;subheader.html&amp;rdquo; . }}&lt;/p&gt;
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+    {{ range .Data.Pages }}
+        {{ .Render &#34;summary&#34;}}
+    {{ end }}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; }}
+__
+Ordering Content&lt;/p&gt;
+
+&lt;p&gt;In the case of Hugo each list will render the content based on metadata provided in the front matter. See ordering content for more information.&lt;/p&gt;
+
+&lt;p&gt;Here are a variety of different ways you can order the content items in your list templates:
+_
+Order by Weight -&amp;gt; Date (default)&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages }}
+&lt;li&gt;
+&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+&lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+&lt;/li&gt;
+{{ end }}
+_
+Order by Weight -&amp;gt; Date&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.ByWeight }}
+&lt;li&gt;
+&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+&lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+&lt;/li&gt;
+{{ end }}
+_
+Order by Date&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.ByDate }}
+&lt;li&gt;
+&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+&lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+&lt;/li&gt;
+{{ end }}
+_
+Order by Length&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.ByLength }}
+&lt;li&gt;
+&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+&lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+&lt;/li&gt;
+{{ end }}
+_
+Order by Title&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.ByTitle }}
+&lt;li&gt;
+&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+&lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+&lt;/li&gt;
+{{ end }}
+_
+Order by LinkTitle&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.ByLinkTitle }}
+&lt;li&gt;
+&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .LinkTitle }}&lt;/a&gt;
+&lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+&lt;/li&gt;
+{{ end }}
+_
+Reverse Order&lt;/p&gt;
+
+&lt;p&gt;Can be applied to any of the above. Using Date for an example.&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.ByDate.Reverse }}
+&lt;li&gt;
+&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+&lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+&lt;/li&gt;
+{{ end }}
+__&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>grouping</title>
+      <link>http://localhost:1313/2015/hugoGuide/grouping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugoGuide/grouping/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;Grouping Content&lt;/p&gt;
+
+&lt;p&gt;Hugo provides some grouping functions for list pages. You can use them to group pages by Section, Date etc.&lt;/p&gt;
+
+&lt;p&gt;Here are a variety of different ways you can group the content items in your list templates:
+_
+Grouping by Page field&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.GroupBy &amp;ldquo;Section&amp;rdquo; }}
+&lt;h3&gt;{{ .Key }}&lt;/h3&gt;
+&lt;ul&gt;
+    {{ range .Pages }}
+    &lt;li&gt;
+    &lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+    &lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+    &lt;/li&gt;
+    {{ end }}
+&lt;/ul&gt;
+{{ end }}
+_
+Grouping by Page date&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.GroupByDate &amp;ldquo;2006-01&amp;rdquo; }}
+&lt;h3&gt;{{ .Key }}&lt;/h3&gt;
+&lt;ul&gt;
+    {{ range .Pages }}
+    &lt;li&gt;
+    &lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+    &lt;div class=&#34;meta&#34;&gt;{{ .Date.Format &amp;ldquo;Mon, Jan 2, 2006&amp;rdquo; }}&lt;/div&gt;
+    &lt;/li&gt;
+    {{ end }}
+&lt;/ul&gt;
+{{ end }}
+__
+Reversing Key Order&lt;/p&gt;
+
+&lt;p&gt;The ordering of the groups is performed by keys in alpha-numeric order (A–Z, 1–100) and in reverse chronological order (newest first) for dates.&lt;/p&gt;
+
+&lt;p&gt;While these are logical defaults, they are not always the desired order. There are two different syntaxes to change the order, they both work the same way, so it’s really just a matter of preference.
+_
+Reverse method&lt;/p&gt;
+
+&lt;p&gt;{{ range (.Data.Pages.GroupBy &amp;ldquo;Section&amp;rdquo;).Reverse }}
+&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;{{ range (.Data.Pages.GroupByDate &amp;ldquo;2006-01&amp;rdquo;).Reverse }}
+&amp;hellip;
+_
+Providing the (alternate) direction&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.GroupByDate &amp;ldquo;2006-01&amp;rdquo; &amp;ldquo;asc&amp;rdquo; }}
+&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;{{ range .Data.Pages.GroupBy &amp;ldquo;Section&amp;rdquo; &amp;ldquo;desc&amp;rdquo; }}
+&amp;hellip;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>taxonomy terms</title>
+      <link>http://localhost:1313/2015/hugoGuide/taxonomy-terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugoGuide/taxonomy-terms/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;Taxonomy Terms
+__
+exemple terms.html file&lt;/p&gt;
+
+&lt;p&gt;List pages are of the type “node” and have all the node variables and site variables available to use in the templates.&lt;/p&gt;
+
+&lt;p&gt;This content template is used for spf13.com. It makes use of partial templates. The list of indexes templates cannot use a content view as they don’t display the content, but rather information about the content.&lt;/p&gt;
+
+&lt;p&gt;This particular template lists all of the Tags used on spf13.com and provides a count for the number of pieces of content tagged with each tag.&lt;/p&gt;
+
+&lt;p&gt;.Data.Terms is an map of terms ⇒ [contents]&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;header.html&amp;rdquo; . }}
+{{ partial &amp;ldquo;subheader.html&amp;rdquo; . }}&lt;/p&gt;
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+
+   &lt;ul&gt;
+   {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms }}
+    &lt;li&gt;&lt;a href=&#34;{{ $data.Plural }}/{{ $key | urlize }}&#34;&gt; {{ $key }} &lt;/a&gt; {{ len $value }} &lt;/li&gt;
+    {{ end }}
+   &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; }}
+_
+Another example listing the content for each term (ordered by Date)&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;header.html&amp;rdquo; . }}
+{{ partial &amp;ldquo;subheader.html&amp;rdquo; . }}&lt;/p&gt;
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+
+    {{ $data := .Data }}
+    {{ range $key,$value := .Data.Terms.ByCount }}
+    &lt;h2&gt;&lt;a href=&#34;{{ $data.Plural }}/{{ $value.Name | urlize }}&#34;&gt; {{ $value.Name }} &lt;/a&gt; {{ $value.Count }} &lt;/h2&gt;
+    &lt;ul&gt;
+        {{ range $value.Pages.ByDate }}
+        &lt;li&gt;
+            &lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt;
+        &lt;/li&gt;
+        {{ end }}
+    &lt;/ul&gt;
+    {{ end }}
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; }}
+__
+Ordering&lt;/p&gt;
+
+&lt;p&gt;Hugo can order the meta data in two different ways. It can be ordered by the number of content assigned to that key or alphabetically.
+_
+example indexes.html file (alphabetical)&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;header.html&amp;rdquo; . }}
+{{ partial &amp;ldquo;subheader.html&amp;rdquo; . }}&lt;/p&gt;
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+   &lt;ul&gt;
+   {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.Alphabetical }}
+    &lt;li&gt;&lt;a href=&#34;{{ $data.Plural }}/{{ $value.Name | urlize }}&#34;&gt; {{ $value.Name }} &lt;/a&gt; {{ $value.Count }} &lt;/li&gt;
+    {{ end }}
+   &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+{{ partial &#34;footer.html&#34; }}
+_
+example indexes.html file (ordered)
+
+{{ partial &#34;header.html&#34; . }}
+{{ partial &#34;subheader.html&#34; . }}
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+   &lt;ul&gt;
+   {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.ByCount }}
+    &lt;li&gt;&lt;a href=&#34;{{ $data.Plural }}/{{ $value.Name | urlize }}&#34;&gt; {{ $value.Name }} &lt;/a&gt; {{ $value.Count }} &lt;/li&gt;
+    {{ end }}
+   &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; }}&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>opitional templates</title>
+      <link>http://localhost:1313/2015/hugoGuide/opitional-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/hugoGuide/opitional-templates/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;OPITIONAL:&lt;/p&gt;
+
+&lt;p&gt;Partial Templates
+__
+example header.html&lt;/p&gt;
+
+&lt;p&gt;this header template is used for spf13.com:&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;!doctype html&amp;gt;
+&lt;html class=&#34;no-js&#34; lang=&#34;en-us&#34; prefix=&#34;og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;utf-8&#34;&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{ partial &amp;quot;meta.html&amp;quot; . }}
+
+&amp;lt;base href=&amp;quot;{{ .site.baseurl }}&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt; {{ .title }} : spf13.com &amp;lt;/title&amp;gt;
+&amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;{{ .permalink }}&amp;quot;&amp;gt;
+{{ if .rsslink }}&amp;lt;link href=&amp;quot;{{ .rsslink }}&amp;quot; rel=&amp;quot;alternate&amp;quot; type=&amp;quot;application/rss+xml&amp;quot; title=&amp;quot;{{ .title }}&amp;quot; /&amp;gt;{{ end }}
+
+{{ partial &amp;quot;head_includes.html&amp;quot; . }}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/head&gt;
+&lt;body lang=&#34;en&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;__
+example footer.html&lt;/p&gt;
+
+&lt;p&gt;this footer template is used for spf13.com:&lt;/p&gt;
+
+&lt;p&gt;&lt;footer&gt;
+  &lt;div&gt;
+    &lt;p&gt;
+    &amp;copy; 2013-14 steve francia.
+    &lt;a href=&#34;http://creativecommons.org/licenses/by/3.0/&#34; title=&#34;creative commons attribution&#34;&gt;some rights reserved&lt;/a&gt;;
+    please attribute properly and link back. hosted by &lt;a href=&#34;http://servergrove.com&#34;&gt;servergrove&lt;/a&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;var _gaq = _gaq || [];
+  _gaq.push([&amp;rsquo;_setaccount&amp;rsquo;, &amp;lsquo;ua-xysyxysy-x&amp;rsquo;]);
+  _gaq.push([&amp;rsquo;_trackpageview&amp;rsquo;]);&lt;/p&gt;
+
+&lt;p&gt;(function() {
+    var ga = document.createelement(&amp;lsquo;script&amp;rsquo;);
+    ga.src = (&amp;lsquo;https:&amp;rsquo; == document.location.protocol ? &amp;lsquo;&lt;a href=&#34;https://ssl&#39;&#34;&gt;https://ssl&#39;&lt;/a&gt; :
+        &amp;lsquo;&lt;a href=&#34;http://www&#39;)&#34;&gt;http://www&#39;)&lt;/a&gt; + &amp;lsquo;.google-analytics.com/ga.js&amp;rsquo;;
+    ga.setattribute(&amp;lsquo;async&amp;rsquo;, &amp;lsquo;true&amp;rsquo;);
+    document.documentelement.firstchild.appendchild(ga);
+  })();&lt;/p&gt;
+
+&lt;p&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;
+
+&lt;p&gt;for examples of referencing these templates, see single content templates, list templates and homepage templates.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;404.html
+__
+This is a basic example of a 404.html template:&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;header.html&amp;rdquo; . }}
+{{ partial &amp;ldquo;subheader.html&amp;rdquo; . }}&lt;/p&gt;
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;div&gt;
+   &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; }}&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Sitemap.xml
+_
+This template respects the version 0.9 of the Sitemap Protocol.&lt;/p&gt;
+
+&lt;p&gt;&lt;urlset xmlns=&#34;http://www.sitemaps.org/schemas/sitemap/0.9&#34;&gt;
+  {{ range .Data.Pages }}
+  &lt;url&gt;
+    &lt;loc&gt;{{ .Permalink }}&lt;/loc&gt;
+    &lt;lastmod&gt;{{ safeHtml ( .Date.Format &amp;ldquo;2006-01-02T15:04:05-07:00&amp;rdquo; ) }}&lt;/lastmod&gt;{{ with .Sitemap.ChangeFreq }}
+    &lt;changefreq&gt;{{ . }}&lt;/changefreq&gt;{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+    &lt;priority&gt;{{ .Sitemap.Priority }}&lt;/priority&gt;{{ end }}
+  &lt;/url&gt;
+  {{ end }}
+&lt;/urlset&gt;&lt;/p&gt;
+
+&lt;p&gt;Important: Hugo will automatically add the following header line to this file on render…please don’t include this in the template as it’s not valid HTML.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?xml version=&amp;ldquo;1.0&amp;rdquo; encoding=&amp;ldquo;utf-8&amp;rdquo; standalone=&amp;ldquo;yes&amp;rdquo; ?&amp;gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Embedded rss.xml
+__
+This is the RSS template that ships with Hugo. It adheres to the ATOM 2.0 Spec.&lt;/p&gt;
+
+&lt;p&gt;&lt;rss version=&#34;2.0&#34; xmlns:atom=&#34;http://www.w3.org/2005/Atom&#34;&gt;
+  &lt;channel&gt;
+      &lt;title&gt;{{ .Title }} on {{ .Site.Title }} &lt;/title&gt;
+      &lt;generator uri=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/generator&gt;
+    &lt;link&gt;{{ .Permalink }}&lt;/link&gt;
+    {{ with .Site.LanguageCode }}&lt;language&gt;{{.}}&lt;/language&gt;{{end}}
+    {{ with .Site.Author.name }}&lt;author&gt;{{.}}&lt;/author&gt;{{end}}
+    {{ with .Site.Copyright }}&lt;copyright&gt;{{.}}&lt;/copyright&gt;{{end}}
+    &lt;updated&gt;{{ .Date.Format &amp;ldquo;Mon, 02 Jan 2006 15:04:05 MST&amp;rdquo; }}&lt;/updated&gt;
+    {{ range first 15 .Data.Pages }}
+    &lt;item&gt;
+      &lt;title&gt;{{ .Title }}&lt;/title&gt;
+      &lt;link&gt;{{ .Permalink }}&lt;/link&gt;
+      &lt;pubDate&gt;{{ .Date.Format &amp;ldquo;Mon, 02 Jan 2006 15:04:05 MST&amp;rdquo; }}&lt;/pubDate&gt;
+      {{with .Site.Author.name}}&lt;author&gt;{{.}}&lt;/author&gt;{{end}}
+      &lt;guid&gt;{{ .Permalink }}&lt;/guid&gt;
+      &lt;description&gt;{{ .Content | html }}&lt;/description&gt;
+    &lt;/item&gt;
+    {{ end }}
+  &lt;/channel&gt;
+&lt;/rss&gt;&lt;/p&gt;
+
+&lt;p&gt;Important: Hugo will automatically add the following header line to this file on render… please don’t include this in the template as it’s not valid HTML.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?xml version=&amp;ldquo;1.0&amp;rdquo; encoding=&amp;ldquo;utf-8&amp;rdquo; standalone=&amp;ldquo;yes&amp;rdquo; ?&amp;gt;
+_&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,9 @@
+<div data-role="navbar" style="text-align: center;">
+	<ul>	
+	{{ range (index .Site.Taxonomies.groups.nav).Pages.ByWeight }}
+		<li>
+		<a href="#{{ .Params.id }}">{{ .Title }}</a>
+		</li>
+	{{ end }}
+	</ul>	
+</div>

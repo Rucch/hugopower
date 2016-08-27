@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Templates on Power Guide</title>
+    <link>http://localhost:1313/2015/groups/templates/</link>
+    <description>Recent content in Templates on Power Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/2015/groups/templates/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:-more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:-more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:--more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:--more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:---more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:---more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:----more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:----more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:-----more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:-----more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:------more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:------more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:-------more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:-------more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>:more</title>
+      <link>http://localhost:1313/2015/templates/:--------more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/:--------more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A.k.a the dot</title>
+      <link>http://localhost:1313/2015/templates/A.k.a-the-dot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/A.k.a-the-dot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IE conditional</title>
+      <link>http://localhost:1313/2015/templates/IE-conditional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/IE-conditional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conditionals (if)</title>
+      <link>http://localhost:1313/2015/templates/conditionals-%28if%29/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/conditionals-%28if%29/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>content page param</title>
+      <link>http://localhost:1313/2015/templates/content-page-params/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/content-page-params/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functions</title>
+      <link>http://localhost:1313/2015/templates/functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo parameters</title>
+      <link>http://localhost:1313/2015/templates/hugo-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/2015/templates/hugo-parameters/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
